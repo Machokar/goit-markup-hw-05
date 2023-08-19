@@ -645,9 +645,6 @@ main {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.blank-tik {
-  fill: currentColor;
-}
 .form {
   display: flex;
   flex-direction: column;
@@ -714,6 +711,9 @@ main {
 }
 .div-form {
   margin-bottom: 8px;
+}
+.div-formn {
+  margin-bottom: 16px;
 }
 .message-form {
   color: rgba(46, 47, 66, 0.4);
@@ -841,7 +841,9 @@ main {
   margin-bottom: 24px;
 }
 .input [type='checkbox']:checked + .form-agreement {
-  fill: #4d5ae5;
+  background-color: var(--primary-blue-color);
+  border: none;
+  fill: var(--primary-background-color);
 }
 .privat-pols {
   color: var(--primary-color);
