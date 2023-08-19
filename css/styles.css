@@ -770,6 +770,7 @@ main {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-form-input {
   width: 264px;
@@ -785,7 +786,6 @@ main {
   color: var(--primary-color-white);
   letter-spacing: 0.04em;
   padding-left: 16px;
-  margin-right: 24px;
 }
 .footer-form-input::placeholder {
   color: var(--primary-color-white);
