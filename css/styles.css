@@ -840,7 +840,7 @@ main {
 .checkbox-div {
   margin-bottom: 24px;
 }
-.input [type='checkbox']:checked + .privat-pol {
+.input:checked + .privat-pol {
   background-color: var(--primary-blue-color);
   border: none;
   fill: var(--primary-background-color);
