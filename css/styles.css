@@ -814,9 +814,9 @@ main {
   border-radius: 2px;
 }
 input:checked + label > span {
-  background-color: var(--primary-color);
+  background-color: var(--primary-blue-color);
   border: none;
-  fill: var(--primary-color-white);
+  fill: var(--primary-background-color);
 }
 .modal-form-field {
   position: relative;
