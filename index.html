@@ -446,7 +446,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button class="button-footer" type="submit">
+            <button class="button-footer form-bot" type="submit">
               Subscribe
               <svg class="icon-foot" width="24" height="24">
                 <use href="./images/icons.svg#icon-tic"></use>
@@ -508,8 +508,8 @@
             </div>
           </div>
           <div class="div-form">
+            <label class="label-form" for="user-comment">Comment</label>
             <div class="modal-form-field">
-              <label class="label-form" for="user-comment">Comment</label>
               <textarea
                 class="message-form"
                 type="message"
@@ -528,9 +528,14 @@
               value="true"
             />
             <label class="form-agreement" for="user-privacy">
+              <span class="privat-pol">
+                <svg class="blank-tik" width="10" height="8">
+                  <use href="./images/icons.svg#icon-tok"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <span class="privat-pol">Privacy Policy</span></label
-            >
+              <a class="privat-pols" href="">Privacy Policy</a>
+            </label>
           </div>
           <button class="row-button" type="submit">Send</button>
         </form>
